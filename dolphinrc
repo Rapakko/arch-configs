@@ -1,0 +1,42 @@
+[CompactMode]
+FontFamily=mononoki Nerd Font Mono
+FontWeight=50
+UseSystemFont=false
+
+[DetailsMode]
+FontFamily=mononoki Nerd Font Mono
+FontWeight=50
+UseSystemFont=false
+
+[General]
+ShowZoomSlider=false
+Version=201
+ViewPropsTimestamp=2021,9,8,14,44,49.715
+
+[IconsMode]
+FontFamily=mononoki Nerd Font
+FontWeight=50
+UseSystemFont=false
+
+[KPropertiesDialog]
+DisplayPort-0 HDMI-A-0 Height 1920x1080=559
+DisplayPort-0 HDMI-A-0 Width 1920x1080=445
+
+[MainWindow]
+DisplayPort-0 HDMI-A-0 Height 1920x1080=994
+DisplayPort-0 HDMI-A-0 Width 1920x1080=918
+DisplayPort-0 HDMI-A-0 XPosition 1920x1080=2891
+DisplayPort-0 HDMI-A-0 YPosition 1920x1080=31
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC0AAADxPwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAeAAADxAAAAEYA////AAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAAAgD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAIA////AAAC3AAAA8QAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
+
+[Search]
+Location=Everywhere
+
+[SettingsDialog]
+DisplayPort-0 HDMI-A-0 Height 1920x1080=410
+DisplayPort-0 HDMI-A-0 Width 1920x1080=541
