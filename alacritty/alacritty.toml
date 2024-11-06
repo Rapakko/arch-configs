@@ -1,0 +1,38 @@
+
+[font]
+size = 12
+
+[font.bold]
+family = "Mononoki Nerd Font"
+
+[font.bold_italic]
+family = "Mononoki Nerd Font"
+
+[font.italic]
+family = "Mononoki Nerd Font"
+
+[font.normal]
+family = "Mononoki Nerd Font"
+
+[scrolling]
+history = 5000
+
+[terminal.shell]
+program = "/bin/fish"
+
+[window]
+opacity = 1
+decorations = "full"
+dynamic_padding = false
+dynamic_title = false
+
+[window.padding]
+x = 10
+y = 8
+
+[general]
+import = [
+	"~/.config/alacritty/themes/everforest-light-medium.toml"
+]
+
+[terminal]

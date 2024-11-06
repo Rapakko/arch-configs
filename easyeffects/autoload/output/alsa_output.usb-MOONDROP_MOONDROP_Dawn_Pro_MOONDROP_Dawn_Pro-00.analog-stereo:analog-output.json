@@ -1,0 +1,6 @@
+{
+    "device": "alsa_output.usb-MOONDROP_MOONDROP_Dawn_Pro_MOONDROP_Dawn_Pro-00.analog-stereo",
+    "device-description": "MOONDROP Dawn Pro Analog Stereo",
+    "device-profile": "analog-output",
+    "preset-name": "Default"
+}
