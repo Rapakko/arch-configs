@@ -1,0 +1,135 @@
+// freija's waybar config for river
+
+[{
+		"output": "DP-1",
+		"layer": "top", // Waybar at top layer
+		"position": "top", // Waybar position (top|bottom|left|right)
+		"height": 32, // Waybar height (to be removed for auto height)
+		"width": 2560, // Waybar width
+		"spacing": 0, // Gaps between modules (4px)
+
+		"fixed-center": true,
+
+		"modules-left": [
+			"disk",
+            "river/tags"
+		],
+
+		"modules-center": [
+            "mpd"
+		],
+
+		"modules-right": [
+			"pulseaudio",
+			//"cpu",
+			//"memory",
+			"clock",
+		],
+
+		"river/tags": {
+                "num-tags": 9,
+			
+		},
+
+
+		"clock": {
+			"format": "{:%H:%M}",
+			"format-alt": "{:%d.%m.%Y}",
+			"tooltip": false
+		},
+    
+		"cpu": {
+        		"format": "cpu {usage}%",
+        		"tooltip": false
+		},
+    
+		"memory": {
+        		"format": "ram {}%"
+		},
+
+
+        "mpd": {
+                "format": "{artist} - {title}",
+                "format-stopped": "playback stopped",
+                "on-click": "mpc toggle",
+                "tooltip": false
+        },
+
+		"pulseaudio": {
+        		"scroll-step": 5,
+	        	"format": "{volume}%",
+			"format-muted": "{format_source}",
+        		"format-icons": {
+            			"default": ["", "", ""]
+	        	},
+
+        		"on-click": "pavucontrol"
+	    	},
+
+		"disk": {
+			"path": "/",
+			"format": "/ {percentage_used}%"
+		},
+    
+	    },
+
+
+
+ 	{
+		"output": "DP-2",
+		"layer": "top", // Waybar at top layer
+		"position": "top", // Waybar position (top|bottom|left|right)
+		"height": 32, // Waybar height (to be removed for auto height)
+		"width": 1920, // Waybar width
+		"spacing": 0, // Gaps between modules (4px)
+
+		"fixed-center": true,
+
+		"modules-left": [
+			"disk",
+            "river/tags"
+		],
+
+		"modules-center": [
+            "mpd"
+		],
+
+		"modules-right": [
+			"pulseaudio",
+			"clock"
+		],
+
+		
+
+
+		"clock": {
+                "format": "{:%H:%M}",
+			    "format-alt": "{:%d.%m.%Y}",
+			    "tooltip": false
+		},
+
+        "mpd": {
+                "format": "{artist} - {title}",
+                "format-stopped": "playback stopped",
+                "on-click": "mpc toggle",
+                "tooltip": false
+        },
+
+		"pulseaudio": {
+        		"scroll-step": 5,
+	        	"format": "{volume}%",
+			"format-muted": " {format_source}",
+        		"format-icons": {
+            			"default": ["", "", ""]
+	        	},
+
+        		"on-click": "pavucontrol"
+	    	},
+
+		"disk": {
+			"path": "/",
+			"format": "/ {percentage_used}%"
+		}
+    }
+    	
+]

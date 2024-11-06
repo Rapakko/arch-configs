@@ -1,0 +1,89 @@
+/* freija's waybar style.css for river */
+
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: FiraCode Nerd;
+    font-size: 14px;
+    font-style: normal;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #FDF6E3;
+    border-bottom: 2px solid #8da101;
+    /*color: #F4D9E1*/
+    
+}
+
+
+#tags {
+    /*background: #282828;*/
+    margin: 0px 0px 3px 10px;
+    padding: 0 0px;
+    border-radius: 32px;
+}
+
+#tags button {
+    color: #8da101;
+    background-color: #fdf6e3;
+    border-radius: 32px;
+}
+
+#tags button.focused {
+    color: #dfa000;
+    /*background-color: #fdf6e3;*/
+    border-radius: 32px;
+}
+
+/*#tags button.occupied {
+    color: #3a94c5;
+    background-color: #fdf6e3;
+    border-radius: 32px;
+}*/
+
+#clock {
+    margin: 0 20px;
+    color: #8da101;
+}
+
+#disk {
+    padding: 0px 0px 0px 15px;
+    margin: 0 0px;
+    color: #8da101;
+}
+
+
+#mpd.playing {
+    color: #8da101;
+}
+
+#mpd.paused {
+    color: #dfa000;
+}
+
+#mpd.stopped {
+    color: #dfa000;
+}
+
+#pulseaudio {
+    padding: 0 0px;
+    color: #8da101;
+    margin: 0 0px;
+}
+
+/*#window,
+#tags {
+    margin: 0 4px;
+}*/
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+

@@ -1,0 +1,142 @@
+// freija's waybar config for hyprland
+
+[{
+		"output": "DP-1",
+		"layer": "top", // Waybar at top layer
+		"position": "top", // Waybar position (top|bottom|left|right)
+		"height": 32, // Waybar height (to be removed for auto height)
+		"width": 2560, // Waybar width
+		"spacing": 0, // Gaps between modules (4px)
+
+		"fixed-center": true,
+
+		"modules-left": [
+			"disk",
+		],
+
+		"modules-center": [
+		"hyprland/workspaces",
+		],
+
+		"modules-right": [
+			"pulseaudio",
+			"cpu",
+			"memory",
+			"temperature",
+			"clock",
+		],
+
+		"hyprland/workspaces": {
+			"format": "{icon}",
+			"format-icons": {
+				"default": "⭘",
+				"active": "",
+				"urgent": "",
+			}
+		},
+
+
+		"clock": {
+			"format": "{:%H:%M}",
+			"format-alt": "{:%d.%m.%Y}",
+			"tooltip": false
+		},
+    
+		"cpu": {
+        		"format": "cpu {usage}%",
+        		"tooltip": false
+		},
+    
+		"memory": {
+        		"format": "ram {}%"
+		},
+	
+		"pulseaudio": {
+        		"scroll-step": 5,
+	        	"format": "{icon}  {volume}%",
+			"format-muted": " {format_source}",
+        		"format-icons": {
+            			"default": ["", "", ""]
+	        	},
+
+        		"on-click": "pavucontrol"
+	    	},
+
+		"disk": {
+			"path": "/",
+			"format": "/ {percentage_used}%"
+		},
+    
+	    },
+
+
+
+ 	{
+		"output": "DP-2",
+		"layer": "top", // Waybar at top layer
+		"position": "top", // Waybar position (top|bottom|left|right)
+		"height": 32, // Waybar height (to be removed for auto height)
+		"width": 1920, // Waybar width
+		"spacing": 0, // Gaps between modules (4px)
+
+		"fixed-center": true,
+
+		"modules-left": [
+			"disk",
+		],
+
+		"modules-center": [
+			"hyprland/workspaces",
+		],
+
+		"modules-right": [
+			"pulseaudio",
+			"cpu",
+			"memory",
+			"temperature",
+			"clock",
+		],
+
+		"hyprland/workspaces": {
+			"format": "{icon}",
+			"format-icons": {
+				"default": "⭘",
+				"active": "",
+				"urgent": "",
+			}
+		},
+
+
+		"clock": {
+			"format": "{:%H:%M}",
+			"format-alt": "{:%d.%m.%Y}",
+			"tooltip": false
+		},
+    
+		"cpu": {
+        		"format": "cpu {usage}%",
+        		"tooltip": false
+		},
+    
+		"memory": {
+        		"format": "ram {}%"
+		},
+	
+		"pulseaudio": {
+        		"scroll-step": 5,
+	        	"format": "{icon}  {volume}%",
+			"format-muted": " {format_source}",
+        		"format-icons": {
+            			"default": ["", "", ""]
+	        	},
+
+        		"on-click": "pavucontrol"
+	    	},
+
+		"disk": {
+			"path": "/",
+			"format": "/ {percentage_used}%"
+		}
+    
+    	}
+]

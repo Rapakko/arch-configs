@@ -1,0 +1,80 @@
+/* freija's waybar style.css for hyprland */
+
+
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: FiraCode Nerd;
+    font-size: 14px;
+    font-style: normal;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(30, 30, 46, 0.5);
+    border-bottom: 1px solid #282828;
+    /*color: #F4D9E1*/
+    
+}
+
+
+#workspaces {
+    background: #282828;
+    margin: 5px 5px 5px 5px;
+    padding: 0 15px;
+    border: solid 0px #F4D9E1;
+    border-radius: 32px;
+}
+
+#workspaces button {
+    color: #FFFFFF;
+}
+
+#workspaces button:hover {
+    color: #FFFFFF;
+    background-color: transparent;
+    border-radius: 32px;
+}
+
+
+/*#workspaces button:hover {
+    background: transparent;
+}*/
+
+
+
+
+#clock,
+#cpu,
+#memory,
+#disk,
+#pulseaudio {
+    padding: 0 15px;
+    color: #FFFFFF;
+    border: solid 0px #F4D9E1;
+    margin: 5px 5px 5px 5px;
+    border-radius: 32px;
+    background-color: #1A1826;
+}
+
+#window,
+#workspaces {
+    margin: 0 4px;
+}
+
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#clock {
+    background-color: #1A1826;
+}
+
+
+
