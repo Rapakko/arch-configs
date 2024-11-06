@@ -1,0 +1,593 @@
+16:40:23 [info] [LOG SESSION] ---------- START ----------
+16:40:23 [info] [PluginFactory] loading plugins
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libalsaout.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libffmpegdecoder.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libgmedecoder.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libhttpdatastream.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libmpris.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libnullout.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libopenmptdecoder.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpipewireout.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libportaudioout.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libpulseout.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libserver.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsndioout.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libstockencoders.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libsupereqdsp.so
+16:40:23 [info] [PluginFactory] loaded: /usr/share/musikcube/plugins/libtaglibreader.so
+16:40:23 [info] [PortAudioOut] Pa_Initialize() return code: 0
+16:40:23 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+16:40:23 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+16:40:23 [info] [PortAudioOut] Pa_Terminate() return code: 0
+16:40:23 [info] [Indexer] indexer source -1303229654 running...
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' running
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+16:40:23 [info] [Indexer] indexer source -1303229654 finished
+16:40:23 [info] [Indexer] indexer source 155697690 running...
+16:40:23 [info] [Indexer] indexer source 155697690 finished
+16:40:23 [info] [Indexer] scanning /home/freija/music/
+16:40:23 [info] [Indexer] scan completed successfully
+16:40:23 [info] [Indexer] cleanup 1/2
+16:40:23 [info] [Indexer] cleanup 2/2
+16:40:23 [info] [Indexer] optimizing
+16:40:23 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+16:40:23 [info] [Indexer] done!
+16:40:23 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+16:40:23 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+16:40:23 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' running
+16:40:23 [info] [LocalLibrary] query 'PersistedPlayQueueQuery' finished with status=4
+16:40:23 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+16:40:23 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+16:40:23 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+16:40:23 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' running
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' running
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' running
+16:40:23 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+16:40:23 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+16:40:23 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+16:40:23 [info] [GaplessTransport] starting track at /home/freija/music/Classical/Tchaikovsky/Complete Tchaikovsky Symphonies,Mariss Janssons, Oslo Philharmonic/10 - Symphony No  3 in D Major, Op  29, TH 26,  Polish   II  Alla tedesca  Allegro moderato e semplice.flac
+16:40:23 [info] [Player] new instance created
+16:40:23 [info] [GaplessTransport] stop
+16:40:23 [info] [Stream] opening /home/freija/music/Classical/Tchaikovsky/Complete Tchaikovsky Symphonies,Mariss Janssons, Oslo Philharmonic/10 - Symphony No  3 in D Major, Op  29, TH 26,  Polish   II  Alla tedesca  Allegro moderato e semplice.flac
+16:40:23 [info] [LocalFileStream] opening file: /home/freija/music/Classical/Tchaikovsky/Complete Tchaikovsky Symphonies,Mariss Janssons, Oslo Philharmonic/10 - Symphony No  3 in D Major, Op  29, TH 26,  Polish   II  Alla tedesca  Allegro moderato e semplice.flac
+16:40:23 [info] [ffmpegdecoder] parsing data stream...
+16:40:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+16:40:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+16:40:23 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+16:40:23 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+16:40:23 [info] [ffmpegdecoder] found audio stream!
+16:40:23 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+16:40:23 [info] [Streams] found a decoder for /home/freija/music/Classical/Tchaikovsky/Complete Tchaikovsky Symphonies,Mariss Janssons, Oslo Philharmonic/10 - Symphony No  3 in D Major, Op  29, TH 26,  Polish   II  Alla tedesca  Allegro moderato e semplice.flac
+16:40:23 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+16:40:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+16:40:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+16:40:23 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+16:40:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+16:40:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+16:40:30 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+16:40:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+16:40:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+16:40:30 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+16:40:34 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+16:40:34 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+16:40:34 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+16:40:34 [info] [GaplessTransport] starting track at /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/06 - mietin sua pahalla.flac
+16:40:34 [info] [Player] new instance created
+16:40:34 [info] [GaplessTransport] stop
+16:40:34 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/06 - mietin sua pahalla.flac
+16:40:34 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/06 - mietin sua pahalla.flac
+16:40:34 [info] [ffmpegdecoder] parsing data stream...
+16:40:34 [info] [ffmpegdecoder] found audio stream!
+16:40:34 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+16:40:34 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/06 - mietin sua pahalla.flac
+16:40:34 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+16:40:34 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+16:40:34 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=49
+16:40:34 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=50
+16:40:34 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=51
+16:40:34 [info] [PipeWireOut] device refresh finished
+16:40:34 [info] [PipeWireOut] state changed from 0 to 1. (no additional context)
+16:40:34 [info] [PipeWireOut] new stream created and connected successfully
+16:40:34 [info] [PipeWireOut] state changed from 1 to 2. (no additional context)
+16:40:34 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+16:40:34 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+16:40:34 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+16:40:34 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+16:40:34 [info] [Player] new instance created
+16:40:34 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/07 - syreenit.flac
+16:40:34 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/07 - syreenit.flac
+16:40:34 [info] [ffmpegdecoder] parsing data stream...
+16:40:34 [info] [ffmpegdecoder] found audio stream!
+16:40:34 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+16:40:34 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/07 - syreenit.flac
+16:40:34 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+16:40:53 [info] [GaplessTransport] pause
+16:40:53 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+16:40:54 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+16:40:54 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+16:40:54 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+18:20:51 [info] [LocalLibrary] query 'DirectoryTrackListQuery' enqueued
+18:20:51 [info] [LocalLibrary] query 'DirectoryTrackListQuery' running
+18:20:51 [info] [LocalLibrary] query 'DirectoryTrackListQuery' finished with status=4
+18:20:51 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+18:20:51 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+18:20:51 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:03:07 [info] [GaplessTransport] resume
+19:03:07 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=5
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' running
+19:03:46 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+19:03:49 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:03:49 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:03:49 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:03:49 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+19:03:49 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+19:03:49 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+19:03:49 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:03:49 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:03:49 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:03:53 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:03:53 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:03:53 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:03:53 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:03:53 [info] [PortAudioOut] Pa_Initialize() return code: 0
+19:03:53 [warning] [PortAudioOut] Pa_AbortStream() return code: -9988
+19:03:53 [warning] [PortAudioOut] Pa_CloseStream() return code: -9988
+19:03:53 [info] [PortAudioOut] Pa_Terminate() return code: 0
+19:03:53 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=44
+19:03:53 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=49
+19:03:53 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=50
+19:03:53 [info] [PipeWireOut] detected PipeWire:Interface:Device with id=51
+19:03:53 [info] [PipeWireOut] device refresh finished
+19:03:53 [info] [PipeWireOut] shutdown started
+19:03:53 [info] [PipeWireOut] shutdown complete
+19:03:53 [info] [PipeWireOut] shutdown started
+19:03:53 [info] [PipeWireOut] shutdown complete
+19:04:00 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+19:04:00 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+19:04:00 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+19:04:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:04:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:04:00 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:04:02 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+19:04:02 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+19:04:02 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+19:04:02 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:04:02 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:04:02 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:04:03 [info] [LocalLibrary] query 'SearchTrackListQuery' enqueued
+19:04:03 [info] [LocalLibrary] query 'SearchTrackListQuery' running
+19:04:03 [info] [LocalLibrary] query 'SearchTrackListQuery' finished with status=4
+19:04:03 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:04:03 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:04:03 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:04:09 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+19:04:09 [info] [LocalLibrary] query 'CategoryListQuery' running
+19:04:09 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+19:04:09 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+19:04:09 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+19:04:09 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+19:04:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:04:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:04:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:04:10 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+19:04:10 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+19:04:10 [info] [LocalLibrary] query 'CategoryListQuery' enqueued
+19:04:10 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+19:04:10 [info] [LocalLibrary] query 'CategoryListQuery' running
+19:04:10 [info] [LocalLibrary] query 'CategoryListQuery' finished with status=4
+19:04:10 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+19:04:10 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+19:04:10 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+19:04:10 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+19:04:10 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+19:04:10 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+19:04:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:04:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:04:10 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:04:14 [info] [LocalLibrary] query 'CategoryTrackListQuery' enqueued
+19:04:14 [info] [LocalLibrary] query 'CategoryTrackListQuery' running
+19:04:14 [info] [LocalLibrary] query 'CategoryTrackListQuery' finished with status=4
+19:04:14 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' enqueued
+19:04:14 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' running
+19:04:14 [info] [LocalLibrary] query 'TrackMetadataBatchQuery' finished with status=4
+19:04:16 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:04:16 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:04:16 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:04:16 [info] [GaplessTransport] starting track at /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/01 - avaus - intro.flac
+19:04:16 [info] [Player] new instance created
+19:04:16 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/01 - avaus - intro.flac
+19:04:16 [info] [GaplessTransport] stop
+19:04:16 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/01 - avaus - intro.flac
+19:04:16 [info] [ffmpegdecoder] parsing data stream...
+19:04:16 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+19:04:16 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+19:04:16 [info] [ffmpegdecoder] found audio stream!
+19:04:16 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:04:16 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/01 - avaus - intro.flac
+19:04:16 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:04:16 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:04:16 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:04:16 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:04:16 [info] [Player] new instance created
+19:04:16 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/02 - valssi.flac
+19:04:16 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/02 - valssi.flac
+19:04:16 [info] [ffmpegdecoder] parsing data stream...
+19:04:16 [info] [ffmpegdecoder] found audio stream!
+19:04:16 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:04:16 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/02 - valssi.flac
+19:04:16 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:04:24 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:04:24 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:04:24 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:04:47 [info] [ffmpegdecoder] finished decoding.
+19:04:49 [info] [GaplessTransport] stop
+19:04:50 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:04:50 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:04:50 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:04:50 [info] [Player] new instance created
+19:04:50 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/03 - päivänvaloo.flac
+19:04:50 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/03 - päivänvaloo.flac
+19:04:50 [info] [ffmpegdecoder] parsing data stream...
+19:04:50 [info] [ffmpegdecoder] found audio stream!
+19:04:50 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:04:50 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/03 - päivänvaloo.flac
+19:04:50 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:05:10 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:05:10 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:05:10 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:08:45 [info] [ffmpegdecoder] finished decoding.
+19:08:47 [info] [GaplessTransport] stop
+19:08:48 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:08:48 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:08:48 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:08:48 [info] [Player] new instance created
+19:08:48 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/04 - sä et kosketa mua.flac
+19:08:48 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/04 - sä et kosketa mua.flac
+19:08:48 [info] [ffmpegdecoder] parsing data stream...
+19:08:48 [info] [ffmpegdecoder] found audio stream!
+19:08:48 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:08:48 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/04 - sä et kosketa mua.flac
+19:08:48 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:09:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:09:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:09:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:12:26 [info] [ffmpegdecoder] finished decoding.
+19:12:28 [info] [GaplessTransport] stop
+19:12:28 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:12:28 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:12:28 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:12:28 [info] [Player] new instance created
+19:12:28 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/05 - ensimmäinen peili.flac
+19:12:28 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/05 - ensimmäinen peili.flac
+19:12:28 [info] [ffmpegdecoder] parsing data stream...
+19:12:28 [info] [ffmpegdecoder] found audio stream!
+19:12:28 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:12:28 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/05 - ensimmäinen peili.flac
+19:12:28 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:12:48 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:12:48 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:12:48 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:16:25 [info] [ffmpegdecoder] finished decoding.
+19:16:27 [info] [GaplessTransport] stop
+19:16:28 [info] [Player] new instance created
+19:16:28 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/06 - mietin sua pahalla.flac
+19:16:28 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/06 - mietin sua pahalla.flac
+19:16:28 [info] [ffmpegdecoder] parsing data stream...
+19:16:28 [info] [ffmpegdecoder] found audio stream!
+19:16:28 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:16:28 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/06 - mietin sua pahalla.flac
+19:16:28 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:16:48 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:16:48 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:16:48 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:19:42 [info] [ffmpegdecoder] finished decoding.
+19:19:44 [info] [GaplessTransport] stop
+19:19:44 [info] [Player] new instance created
+19:19:44 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/07 - syreenit.flac
+19:19:44 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/07 - syreenit.flac
+19:19:44 [info] [ffmpegdecoder] parsing data stream...
+19:19:44 [info] [ffmpegdecoder] found audio stream!
+19:19:44 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:19:44 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/07 - syreenit.flac
+19:19:44 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:20:04 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:20:04 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:20:04 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:22:45 [info] [ffmpegdecoder] finished decoding.
+19:22:48 [info] [GaplessTransport] stop
+19:22:49 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:22:49 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:22:49 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:22:49 [info] [Player] new instance created
+19:22:49 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/08 - maasta taivaaseen.flac
+19:22:49 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/08 - maasta taivaaseen.flac
+19:22:49 [info] [ffmpegdecoder] parsing data stream...
+19:22:49 [info] [ffmpegdecoder] found audio stream!
+19:22:49 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:22:49 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/08 - maasta taivaaseen.flac
+19:22:49 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:23:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:23:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:23:09 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:25:27 [info] [ffmpegdecoder] finished decoding.
+19:25:29 [info] [GaplessTransport] stop
+19:25:30 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:25:30 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:25:30 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:25:30 [info] [Player] new instance created
+19:25:30 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/09 - 3.flac
+19:25:30 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/09 - 3.flac
+19:25:30 [info] [ffmpegdecoder] parsing data stream...
+19:25:30 [info] [ffmpegdecoder] found audio stream!
+19:25:30 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:25:30 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/09 - 3.flac
+19:25:30 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:25:50 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:25:50 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:25:50 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:28:22 [info] [ffmpegdecoder] finished decoding.
+19:28:24 [info] [GaplessTransport] stop
+19:28:25 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:28:25 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:28:25 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:28:25 [info] [Player] new instance created
+19:28:25 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/10 - myrskyä, tyyntä.flac
+19:28:25 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/10 - myrskyä, tyyntä.flac
+19:28:25 [info] [ffmpegdecoder] parsing data stream...
+19:28:25 [info] [ffmpegdecoder] found audio stream!
+19:28:25 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:28:25 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/10 - myrskyä, tyyntä.flac
+19:28:25 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:28:41 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:28:41 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:28:41 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:29:28 [info] [ffmpegdecoder] finished decoding.
+19:29:30 [info] [GaplessTransport] stop
+19:29:31 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:29:31 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:29:31 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:29:31 [info] [Player] new instance created
+19:29:31 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/11 - mielipide.flac
+19:29:31 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/11 - mielipide.flac
+19:29:31 [info] [ffmpegdecoder] parsing data stream...
+19:29:31 [info] [ffmpegdecoder] found audio stream!
+19:29:31 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:29:31 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/11 - mielipide.flac
+19:29:31 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:29:51 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:29:51 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:29:51 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:32:58 [info] [ffmpegdecoder] finished decoding.
+19:33:00 [info] [GaplessTransport] stop
+19:33:01 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:33:01 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:33:01 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:33:01 [info] [Player] new instance created
+19:33:01 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/12 - Hulda.flac
+19:33:01 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/12 - Hulda.flac
+19:33:01 [info] [ffmpegdecoder] parsing data stream...
+19:33:01 [info] [ffmpegdecoder] found audio stream!
+19:33:01 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:33:01 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/12 - Hulda.flac
+19:33:01 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:33:21 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:33:21 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:33:21 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:35:45 [info] [ffmpegdecoder] finished decoding.
+19:35:47 [info] [GaplessTransport] stop
+19:35:48 [info] [LocalLibrary] query 'TrackMetadataQuery' enqueued
+19:35:48 [info] [LocalLibrary] query 'TrackMetadataQuery' running
+19:35:48 [info] [LocalLibrary] query 'TrackMetadataQuery' finished with status=4
+19:35:48 [info] [Player] new instance created
+19:35:48 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/13 - kiinni - outro.flac
+19:35:48 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/13 - kiinni - outro.flac
+19:35:48 [info] [ffmpegdecoder] parsing data stream...
+19:35:48 [info] [ffmpegdecoder] found audio stream!
+19:35:48 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+19:35:48 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/13 - kiinni - outro.flac
+19:35:48 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+19:36:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:36:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:36:08 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:39:22 [info] [ffmpegdecoder] finished decoding.
+19:39:24 [info] [GaplessTransport] stop
+19:39:39 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+19:39:39 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+19:39:39 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+19:40:22 [info] [ffmpegdecoder] finished decoding.
+19:40:24 [info] [GaplessTransport] stop
+23:44:41 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+23:44:41 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+23:44:45 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+23:44:45 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+23:50:57 [info] [GaplessTransport] starting track at /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/01 - avaus - intro.flac
+23:50:57 [info] [Player] new instance created
+23:50:57 [info] [GaplessTransport] stop
+23:50:57 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/01 - avaus - intro.flac
+23:50:57 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/01 - avaus - intro.flac
+23:50:57 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+23:50:57 [info] [ffmpegdecoder] parsing data stream...
+23:50:57 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+23:50:57 [info] [ffmpegdecoder] found audio stream!
+23:50:57 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+23:50:57 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/01 - avaus - intro.flac
+23:50:57 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+23:50:57 [info] [Player] new instance created
+23:50:57 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/02 - valssi.flac
+23:50:57 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/02 - valssi.flac
+23:50:57 [info] [ffmpegdecoder] parsing data stream...
+23:50:57 [info] [ffmpegdecoder] found audio stream!
+23:50:57 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+23:50:57 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/02 - valssi.flac
+23:50:57 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+23:51:00 [info] [GaplessTransport] starting track at /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/02 - valssi.flac
+23:51:00 [info] [Player] new instance created
+23:51:00 [info] [GaplessTransport] stop
+23:51:00 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/02 - valssi.flac
+23:51:00 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/02 - valssi.flac
+23:51:00 [info] [ffmpegdecoder] parsing data stream...
+23:51:00 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+23:51:00 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
+23:51:00 [info] [ffmpegdecoder] found audio stream!
+23:51:00 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+23:51:00 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/02 - valssi.flac
+23:51:00 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+23:51:01 [info] [Player] new instance created
+23:51:01 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/03 - päivänvaloo.flac
+23:51:01 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/03 - päivänvaloo.flac
+23:51:01 [info] [ffmpegdecoder] parsing data stream...
+23:51:01 [info] [ffmpegdecoder] found audio stream!
+23:51:01 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+23:51:01 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/03 - päivänvaloo.flac
+23:51:01 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+23:51:21 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+23:51:21 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+23:51:21 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+23:54:56 [info] [ffmpegdecoder] finished decoding.
+23:54:58 [info] [GaplessTransport] stop
+23:54:59 [info] [Player] new instance created
+23:54:59 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/04 - sä et kosketa mua.flac
+23:54:59 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/04 - sä et kosketa mua.flac
+23:54:59 [info] [ffmpegdecoder] parsing data stream...
+23:54:59 [info] [ffmpegdecoder] found audio stream!
+23:54:59 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+23:54:59 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/04 - sä et kosketa mua.flac
+23:54:59 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+23:55:19 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+23:55:19 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+23:55:19 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+23:58:36 [info] [ffmpegdecoder] finished decoding.
+23:58:39 [info] [GaplessTransport] stop
+23:58:40 [info] [Player] new instance created
+23:58:40 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/05 - ensimmäinen peili.flac
+23:58:40 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/05 - ensimmäinen peili.flac
+23:58:40 [info] [ffmpegdecoder] parsing data stream...
+23:58:40 [info] [ffmpegdecoder] found audio stream!
+23:58:40 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+23:58:40 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/05 - ensimmäinen peili.flac
+23:58:40 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+23:59:00 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+23:59:00 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+23:59:00 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+00:02:36 [info] [ffmpegdecoder] finished decoding.
+00:02:38 [info] [GaplessTransport] stop
+00:02:39 [info] [Player] new instance created
+00:02:39 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/06 - mietin sua pahalla.flac
+00:02:39 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/06 - mietin sua pahalla.flac
+00:02:39 [info] [ffmpegdecoder] parsing data stream...
+00:02:40 [info] [ffmpegdecoder] found audio stream!
+00:02:40 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+00:02:40 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/06 - mietin sua pahalla.flac
+00:02:40 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+00:03:00 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+00:03:00 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+00:03:00 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+00:05:53 [info] [ffmpegdecoder] finished decoding.
+00:05:55 [info] [GaplessTransport] stop
+00:05:56 [info] [Player] new instance created
+00:05:56 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/07 - syreenit.flac
+00:05:56 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/07 - syreenit.flac
+00:05:56 [info] [ffmpegdecoder] parsing data stream...
+00:05:56 [info] [ffmpegdecoder] found audio stream!
+00:05:56 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+00:05:56 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/07 - syreenit.flac
+00:05:56 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+00:06:16 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+00:06:16 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+00:06:16 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+00:08:58 [info] [ffmpegdecoder] finished decoding.
+00:09:00 [info] [GaplessTransport] stop
+00:09:01 [info] [Player] new instance created
+00:09:01 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/08 - maasta taivaaseen.flac
+00:09:01 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/08 - maasta taivaaseen.flac
+00:09:01 [info] [ffmpegdecoder] parsing data stream...
+00:09:01 [info] [ffmpegdecoder] found audio stream!
+00:09:01 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+00:09:01 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/08 - maasta taivaaseen.flac
+00:09:01 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+00:09:21 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+00:09:21 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+00:09:21 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+00:11:39 [info] [ffmpegdecoder] finished decoding.
+00:11:41 [info] [GaplessTransport] stop
+00:11:42 [info] [Player] new instance created
+00:11:42 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/09 - 3.flac
+00:11:42 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/09 - 3.flac
+00:11:42 [info] [ffmpegdecoder] parsing data stream...
+00:11:42 [info] [ffmpegdecoder] found audio stream!
+00:11:42 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+00:11:42 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/09 - 3.flac
+00:11:42 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+00:12:02 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+00:12:02 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+00:12:02 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+00:14:34 [info] [ffmpegdecoder] finished decoding.
+00:14:36 [info] [GaplessTransport] stop
+00:14:37 [info] [Player] new instance created
+00:14:37 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/10 - myrskyä, tyyntä.flac
+00:14:37 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/10 - myrskyä, tyyntä.flac
+00:14:37 [info] [ffmpegdecoder] parsing data stream...
+00:14:37 [info] [ffmpegdecoder] found audio stream!
+00:14:37 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+00:14:37 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/10 - myrskyä, tyyntä.flac
+00:14:37 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+00:14:53 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+00:14:53 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+00:14:53 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+00:15:40 [info] [ffmpegdecoder] finished decoding.
+00:15:42 [info] [GaplessTransport] stop
+00:15:43 [info] [Player] new instance created
+00:15:43 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/11 - mielipide.flac
+00:15:43 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/11 - mielipide.flac
+00:15:43 [info] [ffmpegdecoder] parsing data stream...
+00:15:43 [info] [ffmpegdecoder] found audio stream!
+00:15:43 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+00:15:43 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/11 - mielipide.flac
+00:15:43 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+00:16:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+00:16:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+00:16:03 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+00:19:10 [info] [ffmpegdecoder] finished decoding.
+00:19:12 [info] [GaplessTransport] stop
+00:19:14 [info] [Player] new instance created
+00:19:14 [info] [Stream] opening /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/12 - Hulda.flac
+00:19:14 [info] [LocalFileStream] opening file: /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/12 - Hulda.flac
+00:19:14 [info] [ffmpegdecoder] parsing data stream...
+00:19:14 [info] [ffmpegdecoder] found audio stream!
+00:19:14 [info] [ffmpegdecoder] resolved codec: FLAC (Free Lossless Audio Codec)
+00:19:14 [info] [Streams] found a decoder for /home/freija/music/Pop/pehmoaino/pehmoaino - soittorasia/12 - Hulda.flac
+00:19:14 [warning] [ffmpegdecoder] invalid packet detected, discarding.
+00:19:34 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' enqueued
+00:19:34 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' running
+00:19:34 [info] [LocalLibrary] query 'MarkTrackPlayedQuery' finished with status=4
+00:21:43 [info] [PipeWireOut] state changed from 3 to 2. (no additional context)
+00:21:43 [info] [PipeWireOut] state changed from 2 to 3. (no additional context)
